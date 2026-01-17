@@ -1,25 +1,32 @@
-# OPOS OConnector
+# Opos OConnector
 
-A **cloud-native Point of Sale (POS)** module integrated into the OConnector ecosystem.
+🌐 Live Platform  
+https://opos.oconnector.tech
+
+📦 Part of the OConnector Ecosystem  
+https://oconnector.tech
 
 ## Overview
-OPOS connects sales operations, inventory, and transaction data into a unified platform designed for scalability and automation.
+Opos is a **cloud-native POS (Point of Sale) system** designed for modern retail and service businesses.
 
-## Features
-- Sales and transaction management
-- Product and inventory integration
-- Event-based synchronization with other modules
-- Analytics-ready data pipeline
+It integrates sales, inventory, payments, and analytics with AI-driven automation.
+
+## Core Capabilities
+- Sales and checkout operations
+- Inventory synchronization
+- Payment integrations
+- AI-assisted operational insights
+- Real-time analytics
 
 ## Architecture
-- Modular POS services
-- Event-driven synchronization
-- Multi-tenant ready
+- Serverless POS backend
+- Real-time data synchronization
+- Modular integration with core platform
 
 ## Tech Stack
-- Backend: TypeScript
-- Cloud: Serverless
-- Data: Relational + KV storage
+- Frontend: TypeScript
+- Backend: Serverless APIs
+- Payments: External payment gateways
 
 ## Status
-Active and integrated within the ecosystem.
+Production system.

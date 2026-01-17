@@ -1,30 +1,25 @@
-# OposOconnector - Technical Documentation
+# OPOS OConnector
 
-**Live Demo:** [opos.oconnector.tech](https://opos.oconnector.tech)
-**Contact:** [dev@oconnector.tech](mailto:dev@oconnector.tech)
-
----
+A **cloud-native Point of Sale (POS)** module integrated into the OConnector ecosystem.
 
 ## Overview
+OPOS connects sales operations, inventory, and transaction data into a unified platform designed for scalability and automation.
 
-OposOconnector is a modern, AI-powered Point of Sale (POS) system designed for scalability and performance. This repository contains the technical documentation, architecture diagrams, and implementation details of the platform.
+## Features
+- Sales and transaction management
+- Product and inventory integration
+- Event-based synchronization with other modules
+- Analytics-ready data pipeline
 
 ## Architecture
+- Modular POS services
+- Event-driven synchronization
+- Multi-tenant ready
 
-The system relies on a serverless architecture using Cloudflare Workers for high availability and low latency.
+## Tech Stack
+- Backend: TypeScript
+- Cloud: Serverless
+- Data: Relational + KV storage
 
-### Key Technologies
-- **Frontend:** React, Vite, TailwindCSS (Shadcn/UI)
-- **Backend:** Cloudflare Workers (Hono framework)
-- **Database:** D1 (SQLite at the Edge) + KV Store
-- **AI Integration:** Google Gemini for insights
-
-## Documentation Index
-
-- **Architecture:** Search `architecture.md`
-- **API Reference:** Search `api.md`
-- **Implementation Plans:** See `audit_2026/` for recent refactoring logs.
-
----
-
-*This repository acts as a portfolio showcasing the engineering practices behind OposOconnector.*
+## Status
+Active and integrated within the ecosystem.
